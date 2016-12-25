@@ -96,13 +96,13 @@ let s:p.normal.right = [
 
 " normal
 let s:p.normal.left = [
-    \ [s:black.light.gui, s:green.dark.gui, s:black.light.cli, s:green.dark.cli],
+    \ [s:black.dark.gui, '#5f875f', s:black.light.cli, s:green.dark.cli],
     \ [s:white.dark.gui, s:black.light.gui, s:white.dark.cli, s:black.light.cli],
     \ ]
 
 " insert
 let s:p.insert.left = [
-    \ [s:black.light.gui, s:yellow.dark.gui, s:black.light.cli, s:yellow.dark.cli],
+    \ [s:black.dark.gui, s:red.dark.gui, s:black.light.cli, s:yellow.dark.cli],
     \ [s:white.dark.gui, s:black.light.gui, s:white.dark.cli, s:black.light.cli],
     \ ]
 
